@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lab17_1.Calculate_Controller">
+    <children>
+        <Label fx:id="label1" layoutX="116.0" layoutY="80.0" text="a" />
+        <Label fx:id="label2" layoutX="116.0" layoutY="114.0" text="b" />
+        <Label fx:id="label3" layoutX="116.0" layoutY="149.0" text="sum" />
+        <Button fx:id="button1" layoutX="266.0" layoutY="200.0" mnemonicParsing="false" onAction="#clickbutton1" text="Calculate" />
+        <Button fx:id="button2" layoutX="279.0" layoutY="244.0" mnemonicParsing="false" onAction="#clickbutton2" text="Clear" />
+        <TextField fx:id="TF1" layoutX="224.0" layoutY="76.0" />
+        <TextField fx:id="TF2" layoutX="224.0" layoutY="110.0" />
+        <TextField fx:id="TF3" editable="false" layoutX="224.0" layoutY="145.0" />
+    </children>
+</Pane>
+
